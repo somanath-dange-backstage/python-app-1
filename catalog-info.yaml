@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-1
+  description: Python app that that displays time - Named python-app-1
+  annotations:
+    github.com/project-slug: somanath-dange-backstage/python-app-1
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: python-app-1
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
